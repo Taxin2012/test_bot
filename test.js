@@ -1,3 +1,20 @@
+/*
+3
+1 2 3
+
+3
+---
+3
+1 2 4
+
+4
+---
+5
+1 3 6 10 15
+
+8
+*/
+
 var fs = require('fs');
 var linesArray = fs.readFileSync('input.txt').split('\n');
 var numbsArr = linesArray[1].split(' ');
